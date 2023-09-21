@@ -30,6 +30,25 @@ public class Exercise_04 {
 			}
 		}
 		
+		//Exercise_04.3
+		System.out.println("\n");
+		System.out.println("Exercise_04.3 ");
+		System.out.println("Divisible by 3");
+		int a2 = 4;
+		int b2 = 10;
+		int ctr2;
+		
+		
+		if(a < b) {
+			for (ctr2 = a2; ctr2 <= b2; ctr2++) {
+				if(ctr2 % 3 == 0) {
+					System.out.print(ctr2 + ",");
+				}
+				
+		}
+			
+		}
+				
 	}
 
 }
