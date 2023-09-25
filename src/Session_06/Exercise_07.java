@@ -21,13 +21,12 @@ public class Exercise_07 {
 		
 		if(a==b) {
 			System.out.println("a equal b");
-		}else {
-			if (a.contains(b)) {
+		}else if (a.contains(b)) {
 				System.out.println("a contains b");
 			} else if(a != b){
 				System.out.println("a not equal b");
 			}
 		}
-	}
+	
 
 }
