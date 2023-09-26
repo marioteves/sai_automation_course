@@ -2,12 +2,12 @@ package Session_06;
 
 public class Exercise_07 {
 	public static void main(String[] args) {
-		String text1 = "password: uux12Fgfa";
+		String text1 = "password: x12Fgfa";
 		String text2 = "x12Fgfa password";
 
 		// Exercise_07.1
 		System.out.println("Exercise_07.1");
-		System.out.println(text1.substring(text1.indexOf(":")+4));
+		System.out.println(text1.substring(text1.indexOf(":")+2));
 
 		System.out.println("\n-----------------------");
 
